@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.topcontent {
+    display: flex;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
