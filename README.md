@@ -1,2 +1,2 @@
 # Landing-Page-Creation
-A landing page I created
+This is a landing page I created as a personal project. 
