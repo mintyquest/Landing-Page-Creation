@@ -1,16 +1,41 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 header {
     display: flex;
+    justify-content: space-between;
+
+}
+
+
+header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero.main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero.secondary, header li {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul {
     display: flex;
     list-style: none;
     gap: 32px;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
 }
 
 .topcontent {
@@ -20,4 +45,10 @@ ul {
 img {
     width: auto;
     height: 200px;
+}
+
+.topcontent, 
+header, 
+footer {
+    background-color: #1F2937;
 }
