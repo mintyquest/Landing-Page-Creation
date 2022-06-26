@@ -1,3 +1,5 @@
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,9 +9,13 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    padding: 0 150px;
 
 }
-
+.hero {
+    padding-right: 40px;
+    margin: 0px;
+}
 
 header p {
     font-size: 24px;
@@ -40,15 +46,52 @@ button {
 
 .topcontent {
     display: flex;
+    padding: 30px 150px;
+}
+
+.call_to_action {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 50px 150px;
+    padding: 10px 50px;
 }
 
 img {
     width: auto;
-    height: 200px;
+    height: 280px;
 }
 
 .topcontent, 
 header, 
 footer {
     background-color: #1F2937;
+}
+
+.information > p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+    
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    color: #E5E7EB;
 }
