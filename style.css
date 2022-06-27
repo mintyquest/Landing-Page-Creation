@@ -83,15 +83,17 @@ footer {
     background-color: #1F2937;
 }
 
-.infoboxes {
+.information-boxes {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.infobox {
+    margin: 10px 20px;
+}
 
-
-.infoboxes p {
+.information-boxes p {
     width: 140px;
     height: 140px;
     text-align: center;
