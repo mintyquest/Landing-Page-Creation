@@ -15,6 +15,7 @@ header {
 .hero {
     padding-right: 40px;
     margin: 0px;
+    width: 420px;
 }
 
 header p {
@@ -31,6 +32,7 @@ header p {
 .hero.secondary, header li {
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom: 5px;
 }
 
 ul {
@@ -42,6 +44,18 @@ ul {
 button {
     color: #F9FAF8;
     background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    
+}
+
+.hero button {
+    border: 0;
+}
+
+.call_to_action button {
+    border: 2px solid #F9FAF8;
 }
 
 .topcontent {
@@ -54,7 +68,8 @@ button {
     justify-content: space-between;
     background-color: #3882F6;
     margin: 50px 150px;
-    padding: 10px 50px;
+    padding: 10px 80px;
+    align-items: center;
 }
 
 img {
@@ -72,6 +87,21 @@ footer {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+}
+
+.call-text {
+    
+}
+
+.call-sub {
+    color: #E5E7EB;
+}
+
+.call-header {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .quote {
