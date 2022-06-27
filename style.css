@@ -70,6 +70,7 @@ button {
     margin: 50px 150px;
     padding: 10px 80px;
     align-items: center;
+    border-radius: 5px;
 }
 
 img {
